@@ -1,0 +1,237 @@
+/* ------ common ------ */
+
+* {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: orange;
+    padding: 8px;
+    width: 150px;
+}
+
+button:hover {
+    background: white;
+}
+
+.frame {
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1000px;
+}
+
+/* ------ div classes ------ */
+
+/* ====== header area ====== */
+
+.header {
+    padding: 16px 16px 122px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bar a {
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header-content {
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-content .column {
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#header-image {
+    width: 400px;
+    height: 350px;
+    flex: 1 0 auto;
+}
+
+#header-image img {
+    width: 400px;
+    height: auto;
+    margin-top: -210px;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ====== info area ====== */
+
+.info {
+    padding: 122px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.info .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .text {
+    text-align: center;
+}
+
+.box .frame {
+    border: 5px solid orange;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+#image-one,
+#image-two,
+#image-three,
+#image-four {
+    width: 180px;
+    height: 180px;
+}
+
+#image-one img,
+#image-two img,
+#image-three img {
+    width: 180px;
+    height: auto;
+}
+
+#image-one img {
+    margin-top: -90px;
+}
+
+#image-two img {
+    margin-top: -55px;
+}
+
+#image-three img {
+    margin-top: -70px;
+}
+
+#image-four img {
+    height: 180px;
+    width: auto;
+    margin-left: -50px;
+}
+
+/* ====== testimonial area ====== */
+
+.testimonial {
+    padding: 122px 16px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.testimonial .title {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* ====== contact us area ====== */
+
+.contact-us {
+    padding: 122px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us .wrapper {
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-us .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-us button {
+    border: 5px solid black;
+}
+
+.footer {
+    padding: 32px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: black;
+}
