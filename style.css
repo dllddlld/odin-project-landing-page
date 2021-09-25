@@ -10,6 +10,7 @@
 
 body {
     font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0;
 }
 
 a {
@@ -51,8 +52,6 @@ button:hover {
     padding: 16px 16px 122px;
     background-color: black;
     color: white;
-    display: flex;
-    justify-content: center;
 }
 
 .header-bar {
@@ -62,6 +61,7 @@ button:hover {
 }
 
 .header-bar a {
+    font-size: 18px;
     color: white;
 }
 
